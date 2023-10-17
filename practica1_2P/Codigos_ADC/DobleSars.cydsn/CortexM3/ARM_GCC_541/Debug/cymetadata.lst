@@ -1,0 +1,989 @@
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 1
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.syntax unified
+  15              		.file	"cymetadata.c"
+  16              		.text
+  17              	.Ltext0:
+  18              		.cfi_sections	.debug_frame
+  19              		.global	cy_metadata
+  20              		.global	cy_meta_flashprotect
+  21              		.global	cy_meta_wonvl
+  22              		.global	cy_meta_custnvl
+  23              		.global	cy_meta_configecc
+  24              		.section	.cyconfigecc,"a",%progbits
+  25              		.align	2
+  26              		.type	cy_meta_configecc, %object
+  27              		.size	cy_meta_configecc, 476
+  28              	cy_meta_configecc:
+  29 0000 02       		.byte	2
+  30 0001 52       		.byte	82
+  31 0002 00       		.byte	0
+  32 0003 40       		.byte	64
+  33 0004 01       		.byte	1
+  34 0005 5B       		.byte	91
+  35 0006 00       		.byte	0
+  36 0007 40       		.byte	64
+  37 0008 01       		.byte	1
+  38 0009 65       		.byte	101
+  39 000a 00       		.byte	0
+  40 000b 40       		.byte	64
+  41 000c 01       		.byte	1
+  42 000d 07       		.byte	7
+  43 000e 01       		.byte	1
+  44 000f 40       		.byte	64
+  45 0010 01       		.byte	1
+  46 0011 09       		.byte	9
+  47 0012 01       		.byte	1
+  48 0013 40       		.byte	64
+  49 0014 02       		.byte	2
+  50 0015 15       		.byte	21
+  51 0016 01       		.byte	1
+  52 0017 40       		.byte	64
+  53 0018 59       		.byte	89
+  54 0019 1A       		.byte	26
+  55 001a 01       		.byte	1
+  56 001b 40       		.byte	64
+  57 001c 31       		.byte	49
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 2
+
+
+  58 001d 1B       		.byte	27
+  59 001e 01       		.byte	1
+  60 001f 40       		.byte	64
+  61 0020 03       		.byte	3
+  62 0021 40       		.byte	64
+  63 0022 01       		.byte	1
+  64 0023 40       		.byte	64
+  65 0024 02       		.byte	2
+  66 0025 41       		.byte	65
+  67 0026 01       		.byte	1
+  68 0027 40       		.byte	64
+  69 0028 02       		.byte	2
+  70 0029 42       		.byte	66
+  71 002a 01       		.byte	1
+  72 002b 40       		.byte	64
+  73 002c 03       		.byte	3
+  74 002d 43       		.byte	67
+  75 002e 01       		.byte	1
+  76 002f 40       		.byte	64
+  77 0030 02       		.byte	2
+  78 0031 46       		.byte	70
+  79 0032 01       		.byte	1
+  80 0033 40       		.byte	64
+  81 0034 01       		.byte	1
+  82 0035 47       		.byte	71
+  83 0036 01       		.byte	1
+  84 0037 40       		.byte	64
+  85 0038 01       		.byte	1
+  86 0039 48       		.byte	72
+  87 003a 01       		.byte	1
+  88 003b 40       		.byte	64
+  89 003c 05       		.byte	5
+  90 003d 49       		.byte	73
+  91 003e 01       		.byte	1
+  92 003f 40       		.byte	64
+  93 0040 02       		.byte	2
+  94 0041 4C       		.byte	76
+  95 0042 01       		.byte	1
+  96 0043 40       		.byte	64
+  97 0044 05       		.byte	5
+  98 0045 4D       		.byte	77
+  99 0046 01       		.byte	1
+ 100 0047 40       		.byte	64
+ 101 0048 02       		.byte	2
+ 102 0049 50       		.byte	80
+ 103 004a 01       		.byte	1
+ 104 004b 40       		.byte	64
+ 105 004c 01       		.byte	1
+ 106 004d 51       		.byte	81
+ 107 004e 01       		.byte	1
+ 108 004f 40       		.byte	64
+ 109 0050 60       		.byte	96
+ 110 0051 80       		.byte	-128
+ 111 0052 61       		.byte	97
+ 112 0053 80       		.byte	-128
+ 113 0054 27       		.byte	39
+ 114 0055 21       		.byte	33
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 3
+
+
+ 115 0056 8B       		.byte	-117
+ 116 0057 0F       		.byte	15
+ 117 0058 EE       		.byte	-18
+ 118 0059 01       		.byte	1
+ 119 005a EE       		.byte	-18
+ 120 005b 01       		.byte	1
+ 121 005c E6       		.byte	-26
+ 122 005d 02       		.byte	2
+ 123 005e EE       		.byte	-18
+ 124 005f 08       		.byte	8
+ 125 0060 04       		.byte	4
+ 126 0061 09       		.byte	9
+ 127 0062 06       		.byte	6
+ 128 0063 10       		.byte	16
+ 129 0064 07       		.byte	7
+ 130 0065 0C       		.byte	12
+ 131 0066 09       		.byte	9
+ 132 0067 80       		.byte	-128
+ 133 0068 0A       		.byte	10
+ 134 0069 03       		.byte	3
+ 135 006a 0B       		.byte	11
+ 136 006b 13       		.byte	19
+ 137 006c 0C       		.byte	12
+ 138 006d 14       		.byte	20
+ 139 006e 0F       		.byte	15
+ 140 006f 08       		.byte	8
+ 141 0070 10       		.byte	16
+ 142 0071 30       		.byte	48
+ 143 0072 12       		.byte	18
+ 144 0073 0C       		.byte	12
+ 145 0074 14       		.byte	20
+ 146 0075 1C       		.byte	28
+ 147 0076 15       		.byte	21
+ 148 0077 2C       		.byte	44
+ 149 0078 16       		.byte	22
+ 150 0079 22       		.byte	34
+ 151 007a 17       		.byte	23
+ 152 007b 43       		.byte	67
+ 153 007c 1C       		.byte	28
+ 154 007d 2C       		.byte	44
+ 155 007e 1E       		.byte	30
+ 156 007f 11       		.byte	17
+ 157 0080 20       		.byte	32
+ 158 0081 10       		.byte	16
+ 159 0082 21       		.byte	33
+ 160 0083 71       		.byte	113
+ 161 0084 23       		.byte	35
+ 162 0085 06       		.byte	6
+ 163 0086 26       		.byte	38
+ 164 0087 20       		.byte	32
+ 165 0088 2A       		.byte	42
+ 166 0089 20       		.byte	32
+ 167 008a 2D       		.byte	45
+ 168 008b 71       		.byte	113
+ 169 008c 2F       		.byte	47
+ 170 008d 0E       		.byte	14
+ 171 008e 30       		.byte	48
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 4
+
+
+ 172 008f 20       		.byte	32
+ 173 0090 32       		.byte	50
+ 174 0091 1F       		.byte	31
+ 175 0092 33       		.byte	51
+ 176 0093 0F       		.byte	15
+ 177 0094 35       		.byte	53
+ 178 0095 C0       		.byte	-64
+ 179 0096 37       		.byte	55
+ 180 0097 30       		.byte	48
+ 181 0098 39       		.byte	57
+ 182 0099 A0       		.byte	-96
+ 183 009a 3B       		.byte	59
+ 184 009b 08       		.byte	8
+ 185 009c 3E       		.byte	62
+ 186 009d 01       		.byte	1
+ 187 009e 3F       		.byte	63
+ 188 009f 40       		.byte	64
+ 189 00a0 40       		.byte	64
+ 190 00a1 01       		.byte	1
+ 191 00a2 46       		.byte	70
+ 192 00a3 04       		.byte	4
+ 193 00a4 49       		.byte	73
+ 194 00a5 FF       		.byte	-1
+ 195 00a6 4A       		.byte	74
+ 196 00a7 07       		.byte	7
+ 197 00a8 4B       		.byte	75
+ 198 00a9 FF       		.byte	-1
+ 199 00aa 4C       		.byte	76
+ 200 00ab 40       		.byte	64
+ 201 00ac 4D       		.byte	77
+ 202 00ad 20       		.byte	32
+ 203 00ae 4E       		.byte	78
+ 204 00af F0       		.byte	-16
+ 205 00b0 4F       		.byte	79
+ 206 00b1 05       		.byte	5
+ 207 00b2 50       		.byte	80
+ 208 00b3 08       		.byte	8
+ 209 00b4 58       		.byte	88
+ 210 00b5 04       		.byte	4
+ 211 00b6 59       		.byte	89
+ 212 00b7 04       		.byte	4
+ 213 00b8 5A       		.byte	90
+ 214 00b9 04       		.byte	4
+ 215 00ba 5F       		.byte	95
+ 216 00bb 01       		.byte	1
+ 217 00bc 60       		.byte	96
+ 218 00bd 40       		.byte	64
+ 219 00be 61       		.byte	97
+ 220 00bf A8       		.byte	-88
+ 221 00c0 62       		.byte	98
+ 222 00c1 40       		.byte	64
+ 223 00c2 63       		.byte	99
+ 224 00c3 20       		.byte	32
+ 225 00c4 82       		.byte	-126
+ 226 00c5 20       		.byte	32
+ 227 00c6 86       		.byte	-122
+ 228 00c7 15       		.byte	21
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 5
+
+
+ 229 00c8 88       		.byte	-120
+ 230 00c9 40       		.byte	64
+ 231 00ca 8C       		.byte	-116
+ 232 00cb 03       		.byte	3
+ 233 00cc 8E       		.byte	-114
+ 234 00cd 1C       		.byte	28
+ 235 00ce 90       		.byte	-112
+ 236 00cf 80       		.byte	-128
+ 237 00d0 94       		.byte	-108
+ 238 00d1 03       		.byte	3
+ 239 00d2 96       		.byte	-106
+ 240 00d3 04       		.byte	4
+ 241 00d4 9C       		.byte	-100
+ 242 00d5 03       		.byte	3
+ 243 00d6 9E       		.byte	-98
+ 244 00d7 34       		.byte	52
+ 245 00d8 A4       		.byte	-92
+ 246 00d9 2A       		.byte	42
+ 247 00da A6       		.byte	-90
+ 248 00db 14       		.byte	20
+ 249 00dc AA       		.byte	-86
+ 250 00dd 28       		.byte	40
+ 251 00de B0       		.byte	-80
+ 252 00df 0F       		.byte	15
+ 253 00e0 B2       		.byte	-78
+ 254 00e1 40       		.byte	64
+ 255 00e2 B4       		.byte	-76
+ 256 00e3 80       		.byte	-128
+ 257 00e4 B6       		.byte	-74
+ 258 00e5 38       		.byte	56
+ 259 00e6 BA       		.byte	-70
+ 260 00e7 82       		.byte	-126
+ 261 00e8 BE       		.byte	-66
+ 262 00e9 14       		.byte	20
+ 263 00ea C0       		.byte	-64
+ 264 00eb 43       		.byte	67
+ 265 00ec C1       		.byte	-63
+ 266 00ed 01       		.byte	1
+ 267 00ee C6       		.byte	-58
+ 268 00ef CE       		.byte	-50
+ 269 00f0 C7       		.byte	-57
+ 270 00f1 B0       		.byte	-80
+ 271 00f2 C8       		.byte	-56
+ 272 00f3 2C       		.byte	44
+ 273 00f4 C9       		.byte	-55
+ 274 00f5 FF       		.byte	-1
+ 275 00f6 CA       		.byte	-54
+ 276 00f7 FF       		.byte	-1
+ 277 00f8 CB       		.byte	-53
+ 278 00f9 FF       		.byte	-1
+ 279 00fa CE       		.byte	-50
+ 280 00fb F0       		.byte	-16
+ 281 00fc CF       		.byte	-49
+ 282 00fd 44       		.byte	68
+ 283 00fe D0       		.byte	-48
+ 284 00ff 0C       		.byte	12
+ 285 0100 D4       		.byte	-44
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 6
+
+
+ 286 0101 01       		.byte	1
+ 287 0102 D6       		.byte	-42
+ 288 0103 04       		.byte	4
+ 289 0104 D8       		.byte	-40
+ 290 0105 04       		.byte	4
+ 291 0106 DA       		.byte	-38
+ 292 0107 04       		.byte	4
+ 293 0108 DB       		.byte	-37
+ 294 0109 04       		.byte	4
+ 295 010a DF       		.byte	-33
+ 296 010b 01       		.byte	1
+ 297 010c E6       		.byte	-26
+ 298 010d C0       		.byte	-64
+ 299 010e EA       		.byte	-22
+ 300 010f 40       		.byte	64
+ 301 0110 EB       		.byte	-21
+ 302 0111 02       		.byte	2
+ 303 0112 00       		.byte	0
+ 304 0113 14       		.byte	20
+ 305 0114 02       		.byte	2
+ 306 0115 01       		.byte	1
+ 307 0116 04       		.byte	4
+ 308 0117 50       		.byte	80
+ 309 0118 06       		.byte	6
+ 310 0119 50       		.byte	80
+ 311 011a 09       		.byte	9
+ 312 011b 8A       		.byte	-118
+ 313 011c 0D       		.byte	13
+ 314 011d 80       		.byte	-128
+ 315 011e 0F       		.byte	15
+ 316 011f A0       		.byte	-96
+ 317 0120 10       		.byte	16
+ 318 0121 20       		.byte	32
+ 319 0122 11       		.byte	17
+ 320 0123 20       		.byte	32
+ 321 0124 12       		.byte	18
+ 322 0125 40       		.byte	64
+ 323 0126 13       		.byte	19
+ 324 0127 20       		.byte	32
+ 325 0128 15       		.byte	21
+ 326 0129 28       		.byte	40
+ 327 012a 18       		.byte	24
+ 328 012b 10       		.byte	16
+ 329 012c 1A       		.byte	26
+ 330 012d 40       		.byte	64
+ 331 012e 1C       		.byte	28
+ 332 012f 40       		.byte	64
+ 333 0130 1D       		.byte	29
+ 334 0131 C3       		.byte	-61
+ 335 0132 1E       		.byte	30
+ 336 0133 24       		.byte	36
+ 337 0134 20       		.byte	32
+ 338 0135 05       		.byte	5
+ 339 0136 21       		.byte	33
+ 340 0137 1C       		.byte	28
+ 341 0138 29       		.byte	41
+ 342 0139 41       		.byte	65
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 7
+
+
+ 343 013a 31       		.byte	49
+ 344 013b 08       		.byte	8
+ 345 013c 38       		.byte	56
+ 346 013d 24       		.byte	36
+ 347 013e 3A       		.byte	58
+ 348 013f 40       		.byte	64
+ 349 0140 40       		.byte	64
+ 350 0141 01       		.byte	1
+ 351 0142 45       		.byte	69
+ 352 0143 82       		.byte	-126
+ 353 0144 46       		.byte	70
+ 354 0145 10       		.byte	16
+ 355 0146 50       		.byte	80
+ 356 0147 30       		.byte	48
+ 357 0148 52       		.byte	82
+ 358 0149 50       		.byte	80
+ 359 014a 55       		.byte	85
+ 360 014b 10       		.byte	16
+ 361 014c 56       		.byte	86
+ 362 014d 01       		.byte	1
+ 363 014e 57       		.byte	87
+ 364 014f 50       		.byte	80
+ 365 0150 5D       		.byte	93
+ 366 0151 01       		.byte	1
+ 367 0152 5E       		.byte	94
+ 368 0153 44       		.byte	68
+ 369 0154 5F       		.byte	95
+ 370 0155 20       		.byte	32
+ 371 0156 67       		.byte	103
+ 372 0157 40       		.byte	64
+ 373 0158 79       		.byte	121
+ 374 0159 01       		.byte	1
+ 375 015a 7B       		.byte	123
+ 376 015b 40       		.byte	64
+ 377 015c 87       		.byte	-121
+ 378 015d 40       		.byte	64
+ 379 015e 8A       		.byte	-118
+ 380 015f 10       		.byte	16
+ 381 0160 C0       		.byte	-64
+ 382 0161 F7       		.byte	-9
+ 383 0162 C2       		.byte	-62
+ 384 0163 BD       		.byte	-67
+ 385 0164 C4       		.byte	-60
+ 386 0165 6E       		.byte	110
+ 387 0166 CA       		.byte	-54
+ 388 0167 09       		.byte	9
+ 389 0168 CC       		.byte	-52
+ 390 0169 02       		.byte	2
+ 391 016a CE       		.byte	-50
+ 392 016b 0E       		.byte	14
+ 393 016c D0       		.byte	-48
+ 394 016d D8       		.byte	-40
+ 395 016e D6       		.byte	-42
+ 396 016f F0       		.byte	-16
+ 397 0170 D8       		.byte	-40
+ 398 0171 80       		.byte	-128
+ 399 0172 EE       		.byte	-18
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 8
+
+
+ 400 0173 08       		.byte	8
+ 401 0174 33       		.byte	51
+ 402 0175 28       		.byte	40
+ 403 0176 37       		.byte	55
+ 404 0177 40       		.byte	64
+ 405 0178 CC       		.byte	-52
+ 406 0179 70       		.byte	112
+ 407 017a 9F       		.byte	-97
+ 408 017b 40       		.byte	64
+ 409 017c A7       		.byte	-89
+ 410 017d 28       		.byte	40
+ 411 017e 9F       		.byte	-97
+ 412 017f 40       		.byte	64
+ 413 0180 A7       		.byte	-89
+ 414 0181 28       		.byte	40
+ 415 0182 A7       		.byte	-89
+ 416 0183 28       		.byte	40
+ 417 0184 AB       		.byte	-85
+ 418 0185 40       		.byte	64
+ 419 0186 EE       		.byte	-18
+ 420 0187 80       		.byte	-128
+ 421 0188 1A       		.byte	26
+ 422 0189 80       		.byte	-128
+ 423 018a C6       		.byte	-58
+ 424 018b 08       		.byte	8
+ 425 018c AA       		.byte	-86
+ 426 018d 40       		.byte	64
+ 427 018e A7       		.byte	-89
+ 428 018f 28       		.byte	40
+ 429 0190 87       		.byte	-121
+ 430 0191 08       		.byte	8
+ 431 0192 A7       		.byte	-89
+ 432 0193 08       		.byte	8
+ 433 0194 AF       		.byte	-81
+ 434 0195 20       		.byte	32
+ 435 0196 E6       		.byte	-26
+ 436 0197 40       		.byte	64
+ 437 0198 EE       		.byte	-18
+ 438 0199 10       		.byte	16
+ 439 019a 1F       		.byte	31
+ 440 019b 80       		.byte	-128
+ 441 019c C6       		.byte	-58
+ 442 019d 01       		.byte	1
+ 443 019e 75       		.byte	117
+ 444 019f 02       		.byte	2
+ 445 01a0 89       		.byte	-119
+ 446 01a1 02       		.byte	2
+ 447 01a2 AF       		.byte	-81
+ 448 01a3 80       		.byte	-128
+ 449 01a4 DE       		.byte	-34
+ 450 01a5 04       		.byte	4
+ 451 01a6 E0       		.byte	-32
+ 452 01a7 01       		.byte	1
+ 453 01a8 10       		.byte	16
+ 454 01a9 01       		.byte	1
+ 455 01aa 1C       		.byte	28
+ 456 01ab 01       		.byte	1
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 9
+
+
+ 457 01ac 00       		.byte	0
+ 458 01ad 3F       		.byte	63
+ 459 01ae 00       		.byte	0
+ 460 01af 00       		.byte	0
+ 461 01b0 80       		.byte	-128
+ 462 01b1 00       		.byte	0
+ 463 01b2 00       		.byte	0
+ 464 01b3 80       		.byte	-128
+ 465 01b4 80       		.byte	-128
+ 466 01b5 00       		.byte	0
+ 467 01b6 80       		.byte	-128
+ 468 01b7 00       		.byte	0
+ 469 01b8 00       		.byte	0
+ 470 01b9 00       		.byte	0
+ 471 01ba 00       		.byte	0
+ 472 01bb 00       		.byte	0
+ 473 01bc 00       		.byte	0
+ 474 01bd 0B       		.byte	11
+ 475 01be 0B       		.byte	11
+ 476 01bf 00       		.byte	0
+ 477 01c0 00       		.byte	0
+ 478 01c1 00       		.byte	0
+ 479 01c2 00       		.byte	0
+ 480 01c3 00       		.byte	0
+ 481 01c4 00       		.byte	0
+ 482 01c5 00       		.byte	0
+ 483 01c6 00       		.byte	0
+ 484 01c7 00       		.byte	0
+ 485 01c8 00       		.byte	0
+ 486 01c9 00       		.byte	0
+ 487 01ca 02       		.byte	2
+ 488 01cb 00       		.byte	0
+ 489 01cc 00       		.byte	0
+ 490 01cd 00       		.byte	0
+ 491 01ce 00       		.byte	0
+ 492 01cf 00       		.byte	0
+ 493 01d0 00       		.byte	0
+ 494 01d1 00       		.byte	0
+ 495 01d2 01       		.byte	1
+ 496 01d3 00       		.byte	0
+ 497 01d4 17       		.byte	23
+ 498 01d5 00       		.byte	0
+ 499 01d6 18       		.byte	24
+ 500 01d7 01       		.byte	1
+ 501 01d8 17       		.byte	23
+ 502 01d9 00       		.byte	0
+ 503 01da 18       		.byte	24
+ 504 01db 01       		.byte	1
+ 505              		.section	.cywolatch,"a",%progbits
+ 506              		.align	2
+ 507              		.type	cy_meta_wonvl, %object
+ 508              		.size	cy_meta_wonvl, 4
+ 509              	cy_meta_wonvl:
+ 510 0000 BC       		.byte	-68
+ 511 0001 90       		.byte	-112
+ 512 0002 AC       		.byte	-84
+ 513 0003 AF       		.byte	-81
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 10
+
+
+ 514              		.section	.cycustnvl,"a",%progbits
+ 515              		.align	2
+ 516              		.type	cy_meta_custnvl, %object
+ 517              		.size	cy_meta_custnvl, 4
+ 518              	cy_meta_custnvl:
+ 519 0000 00       		.byte	0
+ 520 0001 00       		.byte	0
+ 521 0002 40       		.byte	64
+ 522 0003 05       		.byte	5
+ 523              		.section	.cymeta,"a",%progbits
+ 524              		.align	2
+ 525              		.type	cy_metadata, %object
+ 526              		.size	cy_metadata, 12
+ 527              	cy_metadata:
+ 528 0000 00       		.byte	0
+ 529 0001 01       		.byte	1
+ 530 0002 2E       		.byte	46
+ 531 0003 16       		.byte	22
+ 532 0004 10       		.byte	16
+ 533 0005 69       		.byte	105
+ 534 0006 00       		.byte	0
+ 535 0007 01       		.byte	1
+ 536 0008 00       		.byte	0
+ 537 0009 00       		.byte	0
+ 538 000a 00       		.byte	0
+ 539 000b 00       		.byte	0
+ 540              		.section	.cyflashprotect,"a",%progbits
+ 541              		.align	2
+ 542              		.type	cy_meta_flashprotect, %object
+ 543              		.size	cy_meta_flashprotect, 256
+ 544              	cy_meta_flashprotect:
+ 545 0000 00000000 		.space	256
+ 545      00000000 
+ 545      00000000 
+ 545      00000000 
+ 545      00000000 
+ 546              		.text
+ 547              	.Letext0:
+ 548              		.file 1 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 549              		.file 2 "c:\\program files (x86)\\cypress\\psoc creator\\4.4\\psoc creator\\import\\gnu\\arm\\5.4.
+ 550              		.file 3 "Generated_Source\\PSoC5\\cymetadata.c"
+ 551              		.section	.debug_info,"",%progbits
+ 552              	.Ldebug_info0:
+ 553 0000 31010000 		.4byte	0x131
+ 554 0004 0400     		.2byte	0x4
+ 555 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 556 000a 04       		.byte	0x4
+ 557 000b 01       		.uleb128 0x1
+ 558 000c 24000000 		.4byte	.LASF17
+ 559 0010 0C       		.byte	0xc
+ 560 0011 C3010000 		.4byte	.LASF18
+ 561 0015 72010000 		.4byte	.LASF19
+ 562 0019 00000000 		.4byte	.Ldebug_line0
+ 563 001d 02       		.uleb128 0x2
+ 564 001e 01       		.byte	0x1
+ 565 001f 06       		.byte	0x6
+ 566 0020 B7010000 		.4byte	.LASF0
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 11
+
+
+ 567 0024 03       		.uleb128 0x3
+ 568 0025 00000000 		.4byte	.LASF9
+ 569 0029 01       		.byte	0x1
+ 570 002a 1D       		.byte	0x1d
+ 571 002b 2F000000 		.4byte	0x2f
+ 572 002f 02       		.uleb128 0x2
+ 573 0030 01       		.byte	0x1
+ 574 0031 08       		.byte	0x8
+ 575 0032 16000000 		.4byte	.LASF1
+ 576 0036 02       		.uleb128 0x2
+ 577 0037 02       		.byte	0x2
+ 578 0038 05       		.byte	0x5
+ 579 0039 5F010000 		.4byte	.LASF2
+ 580 003d 02       		.uleb128 0x2
+ 581 003e 02       		.byte	0x2
+ 582 003f 07       		.byte	0x7
+ 583 0040 C4000000 		.4byte	.LASF3
+ 584 0044 02       		.uleb128 0x2
+ 585 0045 04       		.byte	0x4
+ 586 0046 05       		.byte	0x5
+ 587 0047 69010000 		.4byte	.LASF4
+ 588 004b 02       		.uleb128 0x2
+ 589 004c 04       		.byte	0x4
+ 590 004d 07       		.byte	0x7
+ 591 004e B2000000 		.4byte	.LASF5
+ 592 0052 02       		.uleb128 0x2
+ 593 0053 08       		.byte	0x8
+ 594 0054 05       		.byte	0x5
+ 595 0055 51010000 		.4byte	.LASF6
+ 596 0059 02       		.uleb128 0x2
+ 597 005a 08       		.byte	0x8
+ 598 005b 07       		.byte	0x7
+ 599 005c 06010000 		.4byte	.LASF7
+ 600 0060 04       		.uleb128 0x4
+ 601 0061 04       		.byte	0x4
+ 602 0062 05       		.byte	0x5
+ 603 0063 696E7400 		.ascii	"int\000"
+ 604 0067 02       		.uleb128 0x2
+ 605 0068 04       		.byte	0x4
+ 606 0069 07       		.byte	0x7
+ 607 006a F9000000 		.4byte	.LASF8
+ 608 006e 03       		.uleb128 0x3
+ 609 006f 1D010000 		.4byte	.LASF10
+ 610 0073 02       		.byte	0x2
+ 611 0074 18       		.byte	0x18
+ 612 0075 24000000 		.4byte	0x24
+ 613 0079 05       		.uleb128 0x5
+ 614 007a 91000000 		.4byte	0x91
+ 615 007e 8A000000 		.4byte	0x8a
+ 616 0082 06       		.uleb128 0x6
+ 617 0083 8A000000 		.4byte	0x8a
+ 618 0087 DB01     		.2byte	0x1db
+ 619 0089 00       		.byte	0
+ 620 008a 02       		.uleb128 0x2
+ 621 008b 04       		.byte	0x4
+ 622 008c 07       		.byte	0x7
+ 623 008d 48010000 		.4byte	.LASF11
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 12
+
+
+ 624 0091 07       		.uleb128 0x7
+ 625 0092 6E000000 		.4byte	0x6e
+ 626 0096 08       		.uleb128 0x8
+ 627 0097 E7000000 		.4byte	.LASF12
+ 628 009b 03       		.byte	0x3
+ 629 009c 1F       		.byte	0x1f
+ 630 009d A7000000 		.4byte	0xa7
+ 631 00a1 05       		.uleb128 0x5
+ 632 00a2 03       		.byte	0x3
+ 633 00a3 00000000 		.4byte	cy_meta_configecc
+ 634 00a7 07       		.uleb128 0x7
+ 635 00a8 79000000 		.4byte	0x79
+ 636 00ac 05       		.uleb128 0x5
+ 637 00ad 91000000 		.4byte	0x91
+ 638 00b1 BC000000 		.4byte	0xbc
+ 639 00b5 09       		.uleb128 0x9
+ 640 00b6 8A000000 		.4byte	0x8a
+ 641 00ba 03       		.byte	0x3
+ 642 00bb 00       		.byte	0
+ 643 00bc 08       		.uleb128 0x8
+ 644 00bd D7000000 		.4byte	.LASF13
+ 645 00c1 03       		.byte	0x3
+ 646 00c2 68       		.byte	0x68
+ 647 00c3 CD000000 		.4byte	0xcd
+ 648 00c7 05       		.uleb128 0x5
+ 649 00c8 03       		.byte	0x3
+ 650 00c9 00000000 		.4byte	cy_meta_custnvl
+ 651 00cd 07       		.uleb128 0x7
+ 652 00ce AC000000 		.4byte	0xac
+ 653 00d2 08       		.uleb128 0x8
+ 654 00d3 3A010000 		.4byte	.LASF14
+ 655 00d7 03       		.byte	0x3
+ 656 00d8 76       		.byte	0x76
+ 657 00d9 E3000000 		.4byte	0xe3
+ 658 00dd 05       		.uleb128 0x5
+ 659 00de 03       		.byte	0x3
+ 660 00df 00000000 		.4byte	cy_meta_wonvl
+ 661 00e3 07       		.uleb128 0x7
+ 662 00e4 AC000000 		.4byte	0xac
+ 663 00e8 05       		.uleb128 0x5
+ 664 00e9 91000000 		.4byte	0x91
+ 665 00ed F8000000 		.4byte	0xf8
+ 666 00f1 09       		.uleb128 0x9
+ 667 00f2 8A000000 		.4byte	0x8a
+ 668 00f6 FF       		.byte	0xff
+ 669 00f7 00       		.byte	0
+ 670 00f8 08       		.uleb128 0x8
+ 671 00f9 25010000 		.4byte	.LASF15
+ 672 00fd 03       		.byte	0x3
+ 673 00fe 84       		.byte	0x84
+ 674 00ff 09010000 		.4byte	0x109
+ 675 0103 05       		.uleb128 0x5
+ 676 0104 03       		.byte	0x3
+ 677 0105 00000000 		.4byte	cy_meta_flashprotect
+ 678 0109 07       		.uleb128 0x7
+ 679 010a E8000000 		.4byte	0xe8
+ 680 010e 05       		.uleb128 0x5
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 13
+
+
+ 681 010f 91000000 		.4byte	0x91
+ 682 0113 1E010000 		.4byte	0x11e
+ 683 0117 09       		.uleb128 0x9
+ 684 0118 8A000000 		.4byte	0x8a
+ 685 011c 0B       		.byte	0xb
+ 686 011d 00       		.byte	0
+ 687 011e 08       		.uleb128 0x8
+ 688 011f 0A000000 		.4byte	.LASF16
+ 689 0123 03       		.byte	0x3
+ 690 0124 B1       		.byte	0xb1
+ 691 0125 2F010000 		.4byte	0x12f
+ 692 0129 05       		.uleb128 0x5
+ 693 012a 03       		.byte	0x3
+ 694 012b 00000000 		.4byte	cy_metadata
+ 695 012f 07       		.uleb128 0x7
+ 696 0130 0E010000 		.4byte	0x10e
+ 697 0134 00       		.byte	0
+ 698              		.section	.debug_abbrev,"",%progbits
+ 699              	.Ldebug_abbrev0:
+ 700 0000 01       		.uleb128 0x1
+ 701 0001 11       		.uleb128 0x11
+ 702 0002 01       		.byte	0x1
+ 703 0003 25       		.uleb128 0x25
+ 704 0004 0E       		.uleb128 0xe
+ 705 0005 13       		.uleb128 0x13
+ 706 0006 0B       		.uleb128 0xb
+ 707 0007 03       		.uleb128 0x3
+ 708 0008 0E       		.uleb128 0xe
+ 709 0009 1B       		.uleb128 0x1b
+ 710 000a 0E       		.uleb128 0xe
+ 711 000b 10       		.uleb128 0x10
+ 712 000c 17       		.uleb128 0x17
+ 713 000d 00       		.byte	0
+ 714 000e 00       		.byte	0
+ 715 000f 02       		.uleb128 0x2
+ 716 0010 24       		.uleb128 0x24
+ 717 0011 00       		.byte	0
+ 718 0012 0B       		.uleb128 0xb
+ 719 0013 0B       		.uleb128 0xb
+ 720 0014 3E       		.uleb128 0x3e
+ 721 0015 0B       		.uleb128 0xb
+ 722 0016 03       		.uleb128 0x3
+ 723 0017 0E       		.uleb128 0xe
+ 724 0018 00       		.byte	0
+ 725 0019 00       		.byte	0
+ 726 001a 03       		.uleb128 0x3
+ 727 001b 16       		.uleb128 0x16
+ 728 001c 00       		.byte	0
+ 729 001d 03       		.uleb128 0x3
+ 730 001e 0E       		.uleb128 0xe
+ 731 001f 3A       		.uleb128 0x3a
+ 732 0020 0B       		.uleb128 0xb
+ 733 0021 3B       		.uleb128 0x3b
+ 734 0022 0B       		.uleb128 0xb
+ 735 0023 49       		.uleb128 0x49
+ 736 0024 13       		.uleb128 0x13
+ 737 0025 00       		.byte	0
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 14
+
+
+ 738 0026 00       		.byte	0
+ 739 0027 04       		.uleb128 0x4
+ 740 0028 24       		.uleb128 0x24
+ 741 0029 00       		.byte	0
+ 742 002a 0B       		.uleb128 0xb
+ 743 002b 0B       		.uleb128 0xb
+ 744 002c 3E       		.uleb128 0x3e
+ 745 002d 0B       		.uleb128 0xb
+ 746 002e 03       		.uleb128 0x3
+ 747 002f 08       		.uleb128 0x8
+ 748 0030 00       		.byte	0
+ 749 0031 00       		.byte	0
+ 750 0032 05       		.uleb128 0x5
+ 751 0033 01       		.uleb128 0x1
+ 752 0034 01       		.byte	0x1
+ 753 0035 49       		.uleb128 0x49
+ 754 0036 13       		.uleb128 0x13
+ 755 0037 01       		.uleb128 0x1
+ 756 0038 13       		.uleb128 0x13
+ 757 0039 00       		.byte	0
+ 758 003a 00       		.byte	0
+ 759 003b 06       		.uleb128 0x6
+ 760 003c 21       		.uleb128 0x21
+ 761 003d 00       		.byte	0
+ 762 003e 49       		.uleb128 0x49
+ 763 003f 13       		.uleb128 0x13
+ 764 0040 2F       		.uleb128 0x2f
+ 765 0041 05       		.uleb128 0x5
+ 766 0042 00       		.byte	0
+ 767 0043 00       		.byte	0
+ 768 0044 07       		.uleb128 0x7
+ 769 0045 26       		.uleb128 0x26
+ 770 0046 00       		.byte	0
+ 771 0047 49       		.uleb128 0x49
+ 772 0048 13       		.uleb128 0x13
+ 773 0049 00       		.byte	0
+ 774 004a 00       		.byte	0
+ 775 004b 08       		.uleb128 0x8
+ 776 004c 34       		.uleb128 0x34
+ 777 004d 00       		.byte	0
+ 778 004e 03       		.uleb128 0x3
+ 779 004f 0E       		.uleb128 0xe
+ 780 0050 3A       		.uleb128 0x3a
+ 781 0051 0B       		.uleb128 0xb
+ 782 0052 3B       		.uleb128 0x3b
+ 783 0053 0B       		.uleb128 0xb
+ 784 0054 49       		.uleb128 0x49
+ 785 0055 13       		.uleb128 0x13
+ 786 0056 3F       		.uleb128 0x3f
+ 787 0057 19       		.uleb128 0x19
+ 788 0058 02       		.uleb128 0x2
+ 789 0059 18       		.uleb128 0x18
+ 790 005a 00       		.byte	0
+ 791 005b 00       		.byte	0
+ 792 005c 09       		.uleb128 0x9
+ 793 005d 21       		.uleb128 0x21
+ 794 005e 00       		.byte	0
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 15
+
+
+ 795 005f 49       		.uleb128 0x49
+ 796 0060 13       		.uleb128 0x13
+ 797 0061 2F       		.uleb128 0x2f
+ 798 0062 0B       		.uleb128 0xb
+ 799 0063 00       		.byte	0
+ 800 0064 00       		.byte	0
+ 801 0065 00       		.byte	0
+ 802              		.section	.debug_aranges,"",%progbits
+ 803 0000 14000000 		.4byte	0x14
+ 804 0004 0200     		.2byte	0x2
+ 805 0006 00000000 		.4byte	.Ldebug_info0
+ 806 000a 04       		.byte	0x4
+ 807 000b 00       		.byte	0
+ 808 000c 0000     		.2byte	0
+ 809 000e 0000     		.2byte	0
+ 810 0010 00000000 		.4byte	0
+ 811 0014 00000000 		.4byte	0
+ 812              		.section	.debug_line,"",%progbits
+ 813              	.Ldebug_line0:
+ 814 0000 3D010000 		.section	.debug_str,"MS",%progbits,1
+ 814      02003701 
+ 814      00000201 
+ 814      FB0E0D00 
+ 814      01010101 
+ 815              	.LASF9:
+ 816 0000 5F5F7569 		.ascii	"__uint8_t\000"
+ 816      6E74385F 
+ 816      7400
+ 817              	.LASF16:
+ 818 000a 63795F6D 		.ascii	"cy_metadata\000"
+ 818      65746164 
+ 818      61746100 
+ 819              	.LASF1:
+ 820 0016 756E7369 		.ascii	"unsigned char\000"
+ 820      676E6564 
+ 820      20636861 
+ 820      7200
+ 821              	.LASF17:
+ 822 0024 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 822      43313120 
+ 822      352E342E 
+ 822      31203230 
+ 822      31363036 
+ 823 0057 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 823      20726576 
+ 823      6973696F 
+ 823      6E203233 
+ 823      37373135 
+ 824 008a 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 824      66756E63 
+ 824      74696F6E 
+ 824      2D736563 
+ 824      74696F6E 
+ 825              	.LASF5:
+ 826 00b2 6C6F6E67 		.ascii	"long unsigned int\000"
+ 826      20756E73 
+ 826      69676E65 
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 16
+
+
+ 826      6420696E 
+ 826      7400
+ 827              	.LASF3:
+ 828 00c4 73686F72 		.ascii	"short unsigned int\000"
+ 828      7420756E 
+ 828      7369676E 
+ 828      65642069 
+ 828      6E7400
+ 829              	.LASF13:
+ 830 00d7 63795F6D 		.ascii	"cy_meta_custnvl\000"
+ 830      6574615F 
+ 830      63757374 
+ 830      6E766C00 
+ 831              	.LASF12:
+ 832 00e7 63795F6D 		.ascii	"cy_meta_configecc\000"
+ 832      6574615F 
+ 832      636F6E66 
+ 832      69676563 
+ 832      6300
+ 833              	.LASF8:
+ 834 00f9 756E7369 		.ascii	"unsigned int\000"
+ 834      676E6564 
+ 834      20696E74 
+ 834      00
+ 835              	.LASF7:
+ 836 0106 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 836      206C6F6E 
+ 836      6720756E 
+ 836      7369676E 
+ 836      65642069 
+ 837              	.LASF10:
+ 838 011d 75696E74 		.ascii	"uint8_t\000"
+ 838      385F7400 
+ 839              	.LASF15:
+ 840 0125 63795F6D 		.ascii	"cy_meta_flashprotect\000"
+ 840      6574615F 
+ 840      666C6173 
+ 840      6870726F 
+ 840      74656374 
+ 841              	.LASF14:
+ 842 013a 63795F6D 		.ascii	"cy_meta_wonvl\000"
+ 842      6574615F 
+ 842      776F6E76 
+ 842      6C00
+ 843              	.LASF11:
+ 844 0148 73697A65 		.ascii	"sizetype\000"
+ 844      74797065 
+ 844      00
+ 845              	.LASF6:
+ 846 0151 6C6F6E67 		.ascii	"long long int\000"
+ 846      206C6F6E 
+ 846      6720696E 
+ 846      7400
+ 847              	.LASF2:
+ 848 015f 73686F72 		.ascii	"short int\000"
+ 848      7420696E 
+ 848      7400
+ARM GAS  C:\Users\elgab\AppData\Local\Temp\ccYslsDn.s 			page 17
+
+
+ 849              	.LASF4:
+ 850 0169 6C6F6E67 		.ascii	"long int\000"
+ 850      20696E74 
+ 850      00
+ 851              	.LASF19:
+ 852 0172 433A5C55 		.ascii	"C:\\Users\\elgab\\OneDrive\\Desktop\\PSOC-5lp\\Codi"
+ 852      73657273 
+ 852      5C656C67 
+ 852      61625C4F 
+ 852      6E654472 
+ 853 019f 676F735F 		.ascii	"gos_ADC\\DobleSars.cydsn\000"
+ 853      4144435C 
+ 853      446F626C 
+ 853      65536172 
+ 853      732E6379 
+ 854              	.LASF0:
+ 855 01b7 7369676E 		.ascii	"signed char\000"
+ 855      65642063 
+ 855      68617200 
+ 856              	.LASF18:
+ 857 01c3 47656E65 		.ascii	"Generated_Source\\PSoC5\\cymetadata.c\000"
+ 857      72617465 
+ 857      645F536F 
+ 857      75726365 
+ 857      5C50536F 
+ 858              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

@@ -1,0 +1,7 @@
+C:\Users\elgab\OneDrive\Desktop\PSOC-5lp\Codigos_ADC\DobleSars.cydsn\DobleSars.cyprj|fcecfdb9-1449-4859-8f3a-5991bca43552
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|ecb60ebf-516e-4a44-bb5b-a719c01f3cfc
+C:\Users\elgab\OneDrive\Documentos\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|e37acb0d-f2a2-472b-8301-5a2d8495b014
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|b5c01f70-b9f0-4679-abeb-ca097a4efdba
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|e23fa614-458b-461d-8bec-1073b1dff66f
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|80e69266-17ca-4ccb-96f5-fbbb84ce9295
+C:\Users\elgab\OneDrive\Desktop\PSOC-5lp\Codigos_ADC\Filtros.cydsn\Filtros.cyprj|3fcbe004-7099-4dfb-8c6e-bf3f6fa2b005
